@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+output/repro/run_*/
+*.pyc
+.env
+scratch_run/
+FreightWatch_submission.zip
+output
+Claude outputs
+FreightWatch_submission
+FreightTiger_Intern_CaseStudy.pdf
+FreightWatch_submission.zip
+Makefile
+.DS_Store
+.idea

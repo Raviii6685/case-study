@@ -1,0 +1,22 @@
+route,week_of,expected,expected_note_id,category,rationale
+Delhi-Jaipur,2024-11-11,Yes,,sample,Sample row 1: +35.5% vs history; no note covers Delhi-Jaipur in Nov 2024.
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,sample,Sample row 2: festival surcharge note N002 for this route and week.
+Mumbai-Pune,2025-09-15,Yes,,sample,Sample row 3: +23.6% vs peers; N006 is dated the following week and says no disruptions.
+Delhi-Jaipur,2024-11-18,Yes,,happy,Second week of the same unexplained Delhi-Jaipur spike.
+Chennai-Bangalore,2025-02-24,No (justified),N001,happy,Flood window Feb 24 - Mar 8 covers this week.
+Chennai-Bangalore,2025-03-03,No (justified),N001,happy,Flood window Feb 24 - Mar 8 covers this week.
+Mumbai-Pune,2025-12-22,Yes,,happy,Late-2025 creep: +38.9% vs peers and no note.
+Chennai-Bangalore,2025-03-10,Yes,,trap-window,Cost still high but the flood note ends Mar 8 (roads passable by Mar 9) -- N001 must not be stretched.
+Chennai-Bangalore,2025-03-17,Yes,,trap-negation,N009 matches route and week but says conditions returned to normal -- not a reason for higher cost.
+Mumbai-Pune,2025-06-23,Yes,,trap-market-wide,Diesel note N003 is in window but hits all routes; it cannot explain a +20.6% gap vs peers.
+Mumbai-Pune,2025-10-27,Yes,,trap-negation,N010 is same week and All Routes but says costs were absorbed without a rate change.
+Mumbai-Pune,2025-11-03,Yes,,trap-window,N010 ended the previous week and is not a cost driver anyway.
+Mumbai-Delhi,2024-07-29,not_flagged,,trap-quiet,N005 maintenance week; note says costs not affected and the data agrees.
+Kolkata-Bhubaneswar,2025-06-09,not_flagged,,trap-quiet,N008 week; nothing unusual.
+Delhi-Jaipur,2024-05-20,not_flagged,,trap-quiet,N007 resurfacing week; nothing unusual.
+Delhi-Chennai,2025-05-05,not_flagged,,market-wide,Diesel rise hits all routes ~5-7%; below the 15% own-history threshold and no peer gap.
+Mumbai-Delhi,2025-05-12,not_flagged,,market-wide,Diesel rise hits all routes ~5-7%; nothing route-specific.
+Ahmedabad-Mumbai,2025-01-27,not_flagged,,recovery,Festival week is over; cost back to normal.
+Chennai-Bangalore,2025-03-24,not_flagged,,recovery,Back to normal after the flood period.
+Delhi-Jaipur,2024-11-25,not_flagged,,recovery,Spike over.
+Mumbai-Pune,2024-06-10,not_flagged,,noise,Single-week +16.6% vs one peer route; within normal peer noise (sd ~9pp).

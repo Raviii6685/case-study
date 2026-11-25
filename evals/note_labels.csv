@@ -1,0 +1,11 @@
+note_id,scope,window_start,window_end,raises_cost,stated_pct_max,rationale
+N001,Chennai-Bangalore,2025-02-24,2025-03-08,yes,,Flooding Feb 24 - Mar 8 forced detours and higher trip costs; roads passable again by Mar 9.
+N002,Ahmedabad-Mumbai,2025-01-20,2025-01-26,yes,,Festival-week surcharge on the corridor; a single week.
+N003,All Routes,2025-05-05,,yes,7,Nationwide diesel rise of 5-7% starting this week (open-ended); affects every route equally.
+N004,All Routes,2024-03-11,2024-03-17,no,,New toll plaza but the affected routes are not in this dataset.
+N005,Mumbai-Delhi,2024-07-29,2024-08-04,no,,Maintenance delays; explicitly says costs were not significantly affected.
+N006,All Routes,2025-09-22,2025-09-28,no,,Industry report: demand stable and no major disruptions.
+N007,Delhi-Jaipur,2024-05-20,2024-05-26,no,,Road conditions improved -- would lower cost if anything.
+N008,Kolkata-Bhubaneswar,2025-06-09,2025-06-15,no,,No significant disruptions; movement normal.
+N009,Chennai-Bangalore,2025-03-17,2025-03-23,no,,Route returned to normal after flood repairs -- the end of a disruption is not a cost driver.
+N010,All Routes,2025-10-27,2025-11-02,no,,Tracking mandate costs absorbed by transporters without a rate change.
